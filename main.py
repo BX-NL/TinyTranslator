@@ -82,10 +82,12 @@ def translate():
             return text, translated_text
 
         # 出现错误时发送通知|Send notification when there is an error.
-        except Exception:
-            logging.error(f'ERROR! Translator has some problem. {Exception}')
+        except Exception as e:
+            logging.error(f'ERROR! Translator has some problem. {e}')
+            return None, 'ERROR! No text content.'
     else:
         logging.error('ERROR! Copy content is not text.')
+        return None, 'ERROR! No text content.'
 
 def notify(text, translated_text):
     # 创建Windows Toast通知|Create a Windows Toast notification.
