@@ -126,7 +126,7 @@ def tray_icon():
     # 绘制图标|Draw the icon
     icon_image = Image.new(mode='RGB', size=(64, 64), color=(255, 255, 255))
     draw = ImageDraw.Draw(im=icon_image)
-    draw.rectangle(xy=(16, 16, 48, 48), fill=(102,204,255))
+    draw.rectangle(xy=(16, 16, 48, 48), fill=(102, 204, 255))
 
     # 制作菜单|Create the menu
     menu = Menu(MenuItem(text='退出 | quit', action=quit_action))
