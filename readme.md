@@ -1,4 +1,6 @@
-# A Tiny Translator #
+# TinyTranslator
+
+A Tiny Translator
 
 ## 简介 | Introduction
 
