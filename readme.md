@@ -1,24 +1,26 @@
 # TinyTranslator
 
+一个小巧的翻译工具
+
 A Tiny Translator
 
 ## 简介 | Introduction
 
-A Tiny Translator是一个小巧的翻译工具
+TinyTranslator是一个小巧的翻译工具
 （~~或许并不小巧，可恶的Python让它的占用大了好几倍~~），
 
 总之，它可以使用快捷键翻译选中的文本。
 
 可以自动检测源语言，并翻译为您的目标语言，将结果显示在 Windows 通知中，并且可以随时粘贴。
 
-A Tiny Translator is a tiny translation tool 
+TinyTranslator is a tiny translation tool 
 (~~Maybe not small, the abominable Python lead it to occupy several times larger~~),
 
 In short, it can use shortcut key translation text.
 
 It can automatically detect the source language and translate it as your target language. The results will be display in Windows notifications and you can paste it at any time.
 
-## 功能 | Features ##
+## 功能 | Features
 
 自动检测源语言。
 
@@ -44,7 +46,7 @@ Simple and intuitive notification prompt.
 
 Automatically copy it to the clipboard, which is convenient to use at any time.
 
-## 使用 | Installation ##
+## 使用 | Installation
 
 **1.直接使用 | Use directly：**
 
@@ -73,12 +75,13 @@ Automatically copy it to the clipboard, which is convenient to use at any time.
 
 The program will run in the background. Now you can copy the text and press the shortcut key for translation.
 
-## Customization / 自定义 ##
+## 自定义 | Customization
+
 You can change the hotkey by modifying the Hot_key variable in the script:
 
 您可以通过修改脚本中的 Hot_key 变量来自定义快捷键：
 
-## Setting ##
+## 设置 | Setting
 
 如果你需要修改这些设置，请使用本地部署。（或许有一天我会把这块改出来）
 
@@ -104,7 +107,7 @@ If you need to modify these settings, please use local deployment. (Maybe one da
 
 >use_tray_icon = True
 
-## License / 许可证 ##
+## 许可证 | License
 
 此项目基于 MIT 许可证 - 详情请参阅 LICENSE 文件。
 
