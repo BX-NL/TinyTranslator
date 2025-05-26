@@ -75,6 +75,10 @@ Automatically copy it to the clipboard, which is convenient to use at any time.
 
 The program will run in the background. Now you can copy the text and press the shortcut key for translation.
 
+## 调用
+
+直接运行main立即执行一次，运行其它或使用接口调用。
+
 ## 自定义 | Customization
 
 You can change the hotkey by modifying the Hot_key variable in the script:
